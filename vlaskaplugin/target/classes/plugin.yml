@@ -1,0 +1,13 @@
+name: Vlaskaplugin
+version: '1.0-SNAPSHOT'
+main: com.codebro.vlaskaplugin.Vlaskaplugin
+api-version: 1.16
+softdepend: [ExecutableItems, SCore]
+
+commands:
+  spawnCommand:
+    aliases:
+      - ss
+  giveItem:
+    aliases:
+      - geim
